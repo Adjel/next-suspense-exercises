@@ -10,7 +10,8 @@ async function VaporExercise() {
       <header className="library-header">
         <h1>My games</h1>
         <p>
-          <span className="num-of-games">{10}</span> games in library
+          <span className="num-of-games">{games[games.length - 1] + 1}</span>{" "}
+          games in library
         </p>
       </header>
       <div className="game-grid">
